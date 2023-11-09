@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="PruebaChrome(failed)">
+    <parameter name="navegador" value="chrome"/>
+    <classes>
+      <class name="Test_BonusTrack5b">
+        <methods>
+          <include name="crearUsuario" invocation-numbers="1"/>
+          <include name="editarDatos" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="setDown"/>
+        </methods>
+      </class> <!-- Test_BonusTrack5b -->
+    </classes>
+  </test> <!-- PruebaChrome(failed) -->
+  <test name="PruebaFirefox(failed)">
+    <parameter name="navegador" value="firefox"/>
+    <classes>
+      <class name="Test_BonusTrack5b">
+        <methods>
+          <include name="crearUsuario" invocation-numbers="0 1"/>
+          <include name="editarDatos" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="setDown"/>
+        </methods>
+      </class> <!-- Test_BonusTrack5b -->
+    </classes>
+  </test> <!-- PruebaFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

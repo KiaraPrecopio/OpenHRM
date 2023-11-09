@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Test_BonusTrack3b">
+        <methods>
+          <include name="IngresoUsuario"/>
+          <include name="setUp"/>
+          <include name="setDown"/>
+        </methods>
+      </class> <!-- Test_BonusTrack3b -->
+      <class name="Test_BonusTrack5b">
+        <methods>
+          <include name="crearUsuario"/>
+          <include name="editarDatos"/>
+          <include name="setUp"/>
+          <include name="setDown"/>
+        </methods>
+      </class> <!-- Test_BonusTrack5b -->
+      <class name="Test_BonusTrack2b">
+        <methods>
+          <include name="IngresoUsuario"/>
+        </methods>
+      </class> <!-- Test_BonusTrack2b -->
+      <class name="Test_BonusTrack1b">
+        <methods>
+          <include name="ChromeDriver"/>
+        </methods>
+      </class> <!-- Test_BonusTrack1b -->
+      <class name="pruebas.Test_BonusTrack4b">
+        <methods>
+          <include name="setDown"/>
+          <include name="setUp"/>
+          <include name="crearUsuario"/>
+        </methods>
+      </class> <!-- pruebas.Test_BonusTrack4b -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

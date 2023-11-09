@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="PruebaChrome">
+  <parameter name="navegador" value="chrome"/>
+    <classes>
+      <class name="Test_BonusTrack5b">
+      </class>
+    </classes>
+  </test> <!-- Test -->
+<test name="PruebaFirefox">
+  <parameter name="navegador" value="firefox"/>
+    <classes>
+      <class name="Test_BonusTrack5b">
+      </class>
+    </classes>
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->
